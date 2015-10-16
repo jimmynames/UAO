@@ -1,26 +1,64 @@
 html { 
-  background: url(UAO/images/wallpaper.png) no-repeat center center fixed;
+  background: url(images/wallpaper.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
 body {
     margin-top: 300px;
+    background: none; 
+}
+
+html body {
+    background: none;
+    background-color: rgba(0,0,0,.2);
 }
 
 html,body{
     height: 100%
 }
 
-#mc_embed_signup {
-  background: #fff;
+
+html body h1 {
+    color: floralwhite;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 475%;
+    text-shadow: 2px 2px black;
+   
+}
+
+html body div p {
+    color: black;
+}
+
+#mission {
+  margin: 30px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  color: white;
+  font-size: 20px;
+  /*border: 1px solid #818181;*/
+  /*opacity:0.6;*/
+  /*filter:alpha(opacity=60);*/ /* For IE8 and earlier */
+}*/
+
+body #mc_embed_signup {
+  margin: 100px;
+  background: none;
   clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
+  font: 14px 'Permanent Marker', Helvetica, Arial, sans-serif;
+    
   text-align: center;
   width: 350px;
   margin: 0 auto;
 }
-/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+/* MailChimp Form Embed Code - Slim */
+
+
+body #email-text {
+    text-align: center;
+  text-shadow: 1px 1px black;
+  font-size: 110%;
+}
 
 #mc_embed_signup form {
   display: block;
@@ -34,22 +72,27 @@ html,body{
   margin: 15px 0;
   font-size: 1.4em;
 }
+
 #mc_embed_signup input {
   border: 1px solid #ababab;
   -webkit-appearance: none;
 }
+
 #mc_embed_signup input[type=checkbox] {
   -webkit-appearance: checkbox;
 }
+
 #mc_embed_signup input[type=radio] {
   -webkit-appearance: radio;
 }
+
 #mc_embed_signup input:focus {
   border-color: #799877;
 }
-#mc_embed_signup .button {
+
+body #mc_embed_signup .button {
   display: block;
-  position: absolute;
+  position: relative;
   width: 100% !important;
   background-color: #266080;
   padding: 0;
@@ -67,19 +110,25 @@ html,body{
   text-decoration: none;
   vertical-align: top;
 }
-#mc_embed_signup .button:hover {
-  background-color: #f00;
+
+body #mc_embed_signup .button:hover {
+  background-color: #FF7F00;
 }
+
 #mc_embed_signup .button:active {
   top: 2px;
   border-bottom-width: 1px;
+  background-color: palegreen;
 }
+
 #mc_embed_signup .small-meta {
   font-size: 11px;
 }
+
 #mc_embed_signup .nowrap {
   white-space: nowrap;
 }
+
 #mc_embed_signup .clear {
   clear: none;
   display: inline;
@@ -88,10 +137,10 @@ html,body{
   display: block;
   font-size: 13px
   padding-bottom: 7px;
-  color: #616161;
+  color: mintcream;
   font-weight: italic;
 }
-#mc_embed_signup input.email {
+body #mc_embed_signup input.email {
   display: block;
   padding: 8px 4px;
   margin: 0 4% 10px 0;
@@ -158,23 +207,22 @@ html,body{
 	width: 100%;
 	text-align: left;
 	font: normal 13px sans-serif;
-
-	padding: 2px 50px;
-	margin-top: 80px;
+	padding: 1px 5px 5px 5px;
+	margin-top: 1px;
 }
 
 .footer-distributed .footer-left p{
 	color:  #8f9296;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 0;
+    
 }
 
 /* Footer links */
 
 .footer-distributed p.footer-links{
-	font-size:14px;
-	font-weight: bold;
-	color:  #ffffff;
+	font-size:13px;
+	color:  #C0C0C0;
 	margin: 0 0 10px;
 	padding: 0;
 }
@@ -196,7 +244,7 @@ html,body{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	background-color:  #33383b;
+    background-color:  #33383b;
 	border-radius: 2px;
 
 	font-size: 13px;
@@ -225,7 +273,7 @@ html,body{
 	}
 
 	.footer-distributed .footer-left p.footer-links{
-		line-height: 1.8;
+		line-height: 1.0;
 	}
 }
 
@@ -239,13 +287,13 @@ html,body{
 }
 
  .footer-left p a:hover {
-	opacity: 1;
+	color: #266080;
 }
 
 
 /* In our demo, the footers are fixed to the bottom of the page */
 
-footer{
+html body footer{
 	position: fixed;
 	bottom: 0;
 }
