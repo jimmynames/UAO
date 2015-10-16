@@ -1,6 +1,5 @@
 # UAO
 <h3>Unite Against Oppression: Building site for early start-up non-profit 'Activism/Art' collective</h3>
-<br></br>
 <a href="uniteagainstoppression.com">uniteagainstoppression.com</a> <br></br>
 <a href="uniteagainstoppression.com">uniteagainstoppression.com</a> <br></br>
 <a href="uniteagainstoppression.com">uniteagainstoppression.com</a> <br></br>
